@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mi página web</title>
+	<style>
+		* { box-sizing: border-box; }
+		body { margin: 0; font-family: Arial, sans-serif; color: #243047; background: #f4f7fb; }
+		header { padding: 18px 8%; background: white; }
+		header a { color: #e00732; font-weight: bold; text-decoration: none; }
+		main { min-height: 75vh; display: grid; place-items: center; padding: 32px 20px; text-align: center; }
+		section { max-width: 600px; }
+		h1 { margin-bottom: 12px; font-size: clamp(2.3rem, 7vw, 4rem); }
+		p { color: #5d687c; font-size: 1.1rem; line-height: 1.6; }
+		.button { display: inline-block; margin-top: 12px; padding: 12px 20px; border-radius: 6px; color: white; background: #3157c8; text-decoration: none; }
+		.button:hover { background: #2444a5; }
+		footer { padding: 18px; color: #718096; text-align: center; }
+	</style>
+</head>
+<body>
+	<header><a href="#inicio">Mi sitio</a></header>
+	<main id="inicio">
+		<section>
+			<h1>¡Hola, mundo!</h1>
+			<p>Bienvenido a mi página web. Un espacio sencillo para compartir ideas y proyectos.</p>
+			<a class="button" href="mailto:hola@ejemplo.com">Contactar</a>
+		</section>
+	</main>
+	<footer>© 2025 Mi sitio</footer>
+</body>
+</html>
